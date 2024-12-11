@@ -4,7 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/hapasoft/extend-socialite.svg?style=flat-square)](https://packagist.org/packages/hapasoft/extend-socialite)
 ![GitHub Actions](https://github.com/hapasoft/extend-socialite/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This package is extending the feature of retrieve data from token using getUserFromToken($token) method. By this it is easier to get user data from api end. Other then that all the functions and methods can be used as Socialite package do. It it not not limited it is an extended version of Socialite.
 
 ## Installation
 
@@ -40,13 +40,9 @@ If you discover any security related issues, please email hafijur300000@gmail.co
 
 ## Credits
 
--   [Hafijur Rahman](https://github.com/hapasoft)
--   [All Contributors](../../contributors)
+- [Hafijur Rahman](https://github.com/hapasoft)
+- [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
