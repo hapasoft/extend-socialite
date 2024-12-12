@@ -2,6 +2,7 @@
 
 namespace Hapasoft\ExtendSocialite;
 
+use Hapasoft\ExtendSocialite\Providers\ExtendFacebookProvider;
 use Hapasoft\ExtendSocialite\Providers\ExtendGithubProvider;
 use Hapasoft\ExtendSocialite\Providers\ExtendGoogleProvider;
 use Hapasoft\ExtendSocialite\Providers\ExtendLinkedinProvider;
@@ -66,7 +67,7 @@ class ExtendSocialiteServiceProvider extends ServiceProvider
             if (empty($config['client_id']) || empty($config['client_secret'])) {
                 throw new \InvalidArgumentException('The facebook client_id and client_secret must be set on services config.');
             }
-            return new ExtendGoogleProvider(
+            return new ExtendFacebookProvider(
                 $app['request'],
                 $config['client_id'],
                 $config['client_secret'],
