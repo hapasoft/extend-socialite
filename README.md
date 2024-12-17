@@ -17,7 +17,7 @@ composer require hapasoft/extend-socialite
 ## Usage
 
 ```php
-// Usage description here
+$user = Socialite::driver($provider)->getUserFromToken($token);
 ```
 
 ### Testing
